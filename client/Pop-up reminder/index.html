@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Schedule App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header>
+        <nav>
+            <button onclick="location.href='template.html'">Templates</button>
+            <button onclick="location.href='plans.html'">My Plans</button>
+            <button onclick="location.href='shared.html'">Shared Plans</button>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <section id="schedule">
+        <h1>Add a new schedule</h1>
+        <form id="schedule-form">
+            <label for="task">Task:</label>
+            <input type="text" id="task" name="task" required><br><br>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required><br><br>
+
+            <label for="reminder-time">Reminder Time:</label>
+            <input type="time" id="reminder-time" name="reminder-time" required><br><br>
+
+            <button type="submit">Save Schedule</button>
+        </form>
+    </section>
+
+    <!-- Reminder Popup Modal -->
+    <div id="reminder-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="reminder-message"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
