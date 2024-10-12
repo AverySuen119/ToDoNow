@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Plan Editor</title>
+</head>
+<body>
+    <header>
+        <h1>Plan Editor</h1>
+        <nav>
+            <a href="index.html">Edit Plan</a>
+            <a href="plans.html">My Plans</a>
+            <a href="share.html">Share</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Create or Edit Your Plan</h2>
+        <form id="planForm">
+            <label for="planTitle">Plan Title</label>
+            <input type="text" id="planTitle" placeholder="Enter plan title">
+
+            <label for="planTime">Plan Time</label>
+            <input type="time" id="planTime">
+
+            <label for="planDetails">Plan Details</label>
+            <textarea id="planDetails" placeholder="Enter plan details..."></textarea>
+
+            <label for="planImage">Upload Background Image (Optional)</label>
+            <input type="file" id="planImage" accept="image/*">
+
+            <button type="button" onclick="savePlan()">Save Plan</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Personal Planner App</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
