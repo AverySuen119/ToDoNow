@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Plans Page</title>
+</head>
+<body>
+    <header>
+        <h1>My Personal Plans</h1>
+        <nav>
+            <a href="index.html">Templates Page</a>
+            <a href="plans.html">Personal Plans Page</a>
+            <a href="share.html">Share Page</a>
+        </nav>
+    </header>
+    <main>
+        <div class="plan-list">
+            <h2>Stored Personal Plans</h2>
+            <ul id="planItems"></ul>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Personal Planner App</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
