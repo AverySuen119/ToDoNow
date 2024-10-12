@@ -24,10 +24,10 @@ To set up and run the app locally, follow these steps:
 ### Prerequisites
 - Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
-
    git clone https://github.com/yourusername/Personal-Schedule-Planner.git
 
-Usage
+###Usage
+
 Creating a New Schedule
 On the Template Page, select a template and click the "Customize" button to start editing.
 Add tasks, set reminder times, and customize the background.
@@ -35,23 +35,29 @@ Save the schedule, which will then be available in the Personal Schedule Page.
 Editing Existing Schedules
 Go to the Personal Schedule Page, click the edit button on any saved schedule, make changes, and save it again.
 
-Sharing Schedules
+   
+###Sharing Schedules
+
 Head to the Share Page to see shared schedules. You can also share your own schedule by uploading it.
 
-Technologies Used
+###Technologies Used
+
 Frontend: HTML, CSS, JavaScript
 Backend: Node.js, Express.js
 Database: JSON-based data storage for demo purposes (can be extended to a full database like MongoDB)
 
-Customization Options
+###Customization Options
+
 Upload custom background images for your schedule.
 Select themes to match your personal style.
 Set reminders based on your preferred time, and the app will alert you if tasks are not completed on time.
 
-Future Enhancements
+###Future Enhancements
+
 Push Notifications: Integration with push notifications for reminders on mobile devices.
 Advanced Sharing: Enable users to share schedules via social media directly from the app.
 User Accounts: Add functionality for users to sign up and log in to store schedules securely.
 
-License
+###License
+
 This project is licensed under the MIT License.
