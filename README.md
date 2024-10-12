@@ -1,5 +1,5 @@
 # ToDoNow
-# Personal Schedule App - Frontend
+# ToDoNow App - Frontend
 
 ## Overview
 This is the **frontend** of the "Personal Schedule App", which allows users to create, manage, and share their personal schedules. The frontend provides a user-friendly interface for editing schedules, viewing saved schedules, and sharing them with others. It is designed to be visually appealing with smooth, rounded UI components and a soft, pleasant color scheme. The app is compatible with both iOS and Android devices.
