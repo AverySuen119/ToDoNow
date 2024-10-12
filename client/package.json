@@ -1,0 +1,16 @@
+{
+  "name": "personal-schedule-app-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for the Personal Schedule App that allows users to create, manage, and share their schedules.",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000",
+    "build": "echo 'Building project...' && exit 0"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
