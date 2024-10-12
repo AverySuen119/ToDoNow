@@ -1,0 +1,13 @@
+/* Default styling */
+#schedule {
+    background-color: #ffffff; /* Default background color */
+    background-image: none; /* Default no image */
+}
+
+/* Custom styles from user */
+.schedule-custom {
+    padding: 20px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+}
