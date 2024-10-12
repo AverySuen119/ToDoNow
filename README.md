@@ -24,8 +24,3 @@ This is the **frontend** of the "Personal Schedule App", which allows users to c
 
 ## Installation & Setup
 To get the frontend up and running locally, follow these steps:
-
-### Clone the Repository
-```bash
-git clone https://github.com/your-username/personal-schedule-app.git
-cd personal-schedule-app/frontend
