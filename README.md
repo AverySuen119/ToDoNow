@@ -25,10 +25,6 @@ This is the **frontend** of the "Personal Schedule App", which allows users to c
 ## Installation & Setup
 To get the frontend up and running locally, follow these steps:
 
-### Prerequisites
-- You need [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed on your machine.
-- Install [Git](https://git-scm.com/) to clone the repository.
-
 ### Clone the Repository
 ```bash
 git clone https://github.com/your-username/personal-schedule-app.git
